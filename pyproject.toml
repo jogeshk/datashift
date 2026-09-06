@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "datashift"                 
+version = "0.1.0"                  
+description = "A powerhouse universal file utility engineered by Jogesh K."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+authors = [
+    { name = "Jogesh K", email = "jogeshk.ff2426@gmail.com" },
+]
+
+classifiers = [
+    "Development Status :: 4 - Beta",              
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+]
+
+dependencies = [
+    "pyyaml>=6.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "pandas>=2.0.0",
+    "openpyxl>=3.1.0",
+]
